@@ -1,0 +1,11 @@
+# Railway Configuration for Backend
+# This file is optional - Railway auto-detects Node.js projects
+
+# If needed, you can specify:
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "node server.js"
+healthcheckPath = "/api/health"
+restartPolicyType = "ON_FAILURE"

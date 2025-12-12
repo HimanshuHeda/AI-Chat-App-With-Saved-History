@@ -1,0 +1,15 @@
+# Render Configuration for Backend
+services:
+  - type: web
+    name: ai-chat-backend
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3001
+      - key: OPENAI_API_KEY
+        sync: false
+    healthCheckPath: /api/health
