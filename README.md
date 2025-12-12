@@ -9,7 +9,7 @@ A full-stack web application where users can chat with an AI assistant. All conv
 
 Below is a sample of the project UI:
 
-![AI Chat App Screenshot](./sample-screenshot.png)
+![AI Chat App Screenshot](./Interface.png)
 
 ## 🏗️ Architecture
 
