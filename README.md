@@ -4,11 +4,12 @@ A full-stack web application where users can chat with an AI assistant. All conv
 
 ## ✨ Features
 
-- 💬 **Real-time AI Chat** - Interactive conversation with AI assistant
-- 💾 **Persistent Storage** - All messages saved to SQLite database
-- 🔄 **History Preservation** - Chat history restored on page reload
-- 🎨 **Modern UI** - Clean, responsive React interface
-- 🚀 **Easy Deployment** - Ready for Vercel, Railway, or Render
+
+## 🖼️ Sample Screenshot
+
+Below is a sample of the project UI:
+
+![AI Chat App Screenshot](./sample-screenshot.png)
 
 ## 🏗️ Architecture
 
